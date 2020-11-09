@@ -475,8 +475,12 @@ mark,
 }
 
 .img-fluid {
-  max-width: 100%;
-  height: auto;
+  /* max-width: 100%;
+  height: auto; */
+  width: 160px;
+  height: 160px;
+  object-fit: cover;
+  transition: 1s all;
 }
 
 .img-thumbnail {
@@ -6311,7 +6315,10 @@ button.bg-dark:focus {
 }
 
 .d-none {
-  display: none !important;
+  /* display: none !important; */
+  width: 160px;
+  height: 160px;
+  overflow: hidden;
 }
 
 .d-inline {
